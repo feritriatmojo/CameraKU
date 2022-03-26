@@ -20,12 +20,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.ExecutorService
 import android.provider.MediaStore
-
 import android.content.ContentValues
 import android.os.Build
-
 typealias LumaListener = (luma: Double) -> Unit
-
 
 class MainActivity : AppCompatActivity() {
     //TODO 1 = Deklarasi Variabel
@@ -187,7 +184,7 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
-    //TODO 6= Penggunaan startCamera untuk Memulai Kamera
+    //TODO 6 = Penggunaan startCamera untuk Memulai Kamera
     private fun startCamera() {
         val cameraProviderFuture = ProcessCameraProvider.getInstance(this)
         cameraProviderFuture.addListener({

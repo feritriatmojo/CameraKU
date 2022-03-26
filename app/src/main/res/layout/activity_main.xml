@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--Menampilkan Preview View Camera -->
+    <!--TODO 1 = Menampilkan Preview View Camera -->
     <androidx.camera.view.PreviewView
         android:id="@+id/viewFinder"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!--Menampilkan Tombol Foto -->
+    <!--TODO 2 = Menampilkan Tombol Foto -->
     <Button
         android:id="@+id/image_capture_button"
         android:layout_width="110dp"
@@ -26,7 +26,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintEnd_toStartOf="@id/vertical_centerline" />
 
-    <!--Menampilkan Tombol Video -->
+    <!--TODO 3 = Menampilkan Tombol Video -->
     <Button
         android:id="@+id/video_capture_button"
         android:layout_width="110dp"
